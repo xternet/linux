@@ -1,6 +1,6 @@
 This directory attempts to document the ABI between the Linux kernel and
-userspace, and the relative stability of these interfaces.  Due to the
-everchanging nature of Linux, and the differing maturity levels, these
+userspace, and the relative stability of these interfaces. Due to the 
+ever-changing nature of Linux and the different maturity levels, these
 interfaces should be used by userspace programs in different ways.
 
 We have four different levels of ABI stability, as shown by the four
@@ -59,7 +59,7 @@ Users:		All users of this interface who wish to be notified when
 
 
 Note:
-   The fields should be use a simple notation, compatible with ReST markup.
+   The fields should use a simple notation, compatible with ReST markup.
    Also, the file **should not** have a top-level index, like::
 
 	===
