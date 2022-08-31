@@ -10,13 +10,13 @@ What:		/sys/bus/iio/devices/triggerX
 KernelVersion:	2.6.35
 Contact:	linux-iio@vger.kernel.org
 Description:
-		An event driven driver of data capture to an in kernel buffer.
+		An event-driven driver of data capture to an in-kernel buffer.
 		May be provided by a device driver that also has an IIO device
-		based on hardware generated events (e.g. data ready) or
+		based on hardware-generated events (e.g. data ready) or
 		provided by a separate driver for other hardware (e.g.
-		periodic timer, GPIO or high resolution timer).
+		periodic timer, GPIO or high-resolution timer).
 
-		Contains trigger type specific elements. These do not
+		Contains trigger type-specific elements. These do not
 		generalize well and hence are not documented in this file.
 		X is the IIO index of the trigger.
 
